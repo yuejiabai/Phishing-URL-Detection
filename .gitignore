@@ -1,0 +1,14 @@
+.venv/
+.wheelhouse/
+__pycache__/
+.pytest_cache/
+.mplconfig/
+data/
+models/
+*.joblib
+*.pkl
+.env
+.env.*
+*.pem
+*.key
+.vscode/

@@ -1,0 +1,10 @@
+model,perturbation,phishing_test_rows,valid_rows,failed_rows,no_eligible_edit,invalid_original,invalid_result,original_recall,perturbed_recall,recall_change_pp
+Logistic Regression,Character substitution,19382,4328,15054,15054,0,0,1.0,1.0,0.0
+Random Forest,Character substitution,19382,4328,15054,15054,0,0,1.0,1.0,0.0
+Character n-gram,Character substitution,19382,4328,15054,15054,0,0,0.994916820702403,0.9932994454713494,-0.16173752310535416
+Logistic Regression,Path extension,19382,19382,0,0,0,0,0.9714167784542359,1.0,2.8583221545764093
+Random Forest,Path extension,19382,19382,0,0,0,0,0.9785883809720359,1.0,2.141161902796407
+Character n-gram,Path extension,19382,19382,0,0,0,0,0.9896295531936848,0.9980910122794345,0.846145908574969
+Logistic Regression,Benign keyword injection,19382,19382,0,0,0,0,0.9714167784542359,1.0,2.8583221545764093
+Random Forest,Benign keyword injection,19382,19382,0,0,0,0,0.9785883809720359,1.0,2.141161902796407
+Character n-gram,Benign keyword injection,19382,19382,0,0,0,0,0.9896295531936848,0.9972655040759467,0.7635950882261877
